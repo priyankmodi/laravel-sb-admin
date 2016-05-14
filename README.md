@@ -6,12 +6,14 @@ Follow these basic steps :
 
 2) Go to your directory.
 
-3) Run git clone https://github.com/priyankmodi/laravel-sb-admin.git
+3) Run Command : git clone https://github.com/priyankmodi/laravel-sb-admin.git
 
 4) Create DB in mysql.
 
 4) Rename .env.example to .env & set your DB credentials.
 
-5) Run php artisan key:generate
+5) Run Command : php artisan key:generate
 
-6) Run your-site/public.
+6) Run Command : php artisan migrate
+
+7) Run your site at http://site-url/public
